@@ -102,12 +102,6 @@ jobs:
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
         
-    - name: luci-base
-      id: luci-base
-      run: |
-        cd openwrt
-        sudo apt-get -y install gperf
-        make package/feeds/luci/luci-base/compile V=99
 
     - name: Compile the firmware
       id: compile
