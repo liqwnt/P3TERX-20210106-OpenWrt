@@ -15,9 +15,9 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-sed -i '$a src-git wwz09 https://github.com/wwz09/wwz09-packages.git' feeds.conf.default
-sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
+#sed -i '$a src-git wwz09 https://github.com/wwz09/wwz09-packages.git' feeds.conf.default
+#sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
 #sed -i '$a src-git jerryku https://github.com/jerrykuku/openwrt-package' feeds.conf.default
-#sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages.git' feeds.conf.default
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages.git' feeds.conf.default
 #sed -i '$a src-git siropboy https://github.com/siropboy/openwrt-packages' feeds.conf.default
-#sed -i '$a src-git small https://github.com/kenzok8/small.git' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small.git' feeds.conf.default
