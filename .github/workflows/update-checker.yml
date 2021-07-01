@@ -89,6 +89,8 @@ jobs:
       id: package
       run: |
         cd openwrt
+        export GO111MODULE=on
+        export GOPROXY=https://goproxy.cn,direct
         make defconfig
         make download -j8
         find dl -size -1024c -exec ls -l {} \;
